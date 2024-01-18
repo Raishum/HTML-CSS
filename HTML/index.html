@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of your page">
+    <meta name="keywords" content="HTML, CSS, Web Development">
+    
+    <meta property="og:title" content="Your Page Title">
+    <meta property="og:description" content="A brief description of your page">
+    <meta property="og:image" content="thumbnail.jpg">
+    <meta property="og:url" content="https://example.com">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Your Blank Page</title>
+</head>
+<body>
+
+    <!-- Your content goes here -->
+<!-- navbar -->
+    <header class="navbar">
+        <!-- <nav>
+            <li><a href="#">Home</a></a></li>
+            <li><a href="#">About</a></a></li>
+            <li><a href="#">Contact</a></a></li>
+        </nav> -->
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+              <li><a href='http://'>Home</a></li>
+              <li><a class='dropdown-arrow' href='http://'>Courses</a>
+                <ul class='sub-menus'>
+                  <li><a href='http://'>Maths</a></li>
+                  <li><a href='http://'>English</a></li>
+                  <li><a href='http://'>Science</a></li>
+                </ul>
+              </li>
+              <li><a href='http://'>About</a></li>
+              <li><a class='dropdown-arrow' href='http://'>Tutors</a>
+                <ul class='sub-menus'>
+                  <li><a href='http://'>Tutor 1</a></li>
+                  <li><a href='http://'>Tutor 2</a></li>
+                  <li><a href='http://'>Tutor 3</a></li>
+                </ul>
+              </li>
+              <li><a href='http://'>Contact Us</a></li>
+            </ul>
+          </nav>
+    </header>
+
+<!-- top box -->
+    <main class="main-section">
+        <div class="main-content">
+            <!-- <h1>Welcom to GibJohn Tutoring!</h1> -->
+
+            <div class="wrapper">
+                <svg>
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                         GibJohn!
+                    </text>
+                </svg>
+            </div>
+
+            <h3>We Offer The Best Tutors And The Best Courses!</h3>
+            <!-- <button>Choose a Tutor</button>
+            <button>Choose a Topic</button> -->
+        </div>
+    </main>
+
+<!-- colums -->
+    <section class="three-columns">
+        <div class="column">
+            <h2>Text 1</h2>
+            <img src="tutor2.png" alt="around the table">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec justo hendrerit vestibulum non a magna. Nulla facilisi. Nulla facilisi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec justo hendrerit vestibulum non a magna. Nulla facilisi. Nulla facilisi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec justo hendrerit vestibulum non a magna. Nulla facilisi. Nulla facilisi.</p>
+        </div>
+        <div class="column">
+            <h2>Text 2</h2>
+            <img src="tutor1.png" alt="Tutoring bubble midmap">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec justo hendrerit vestibulum non a magna. Nulla facilisi. Nulla facilisi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec justo hendrerit vestibulum non a magna. Nulla facilisi. Nulla facilisi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec justo hendrerit vestibulum non a magna. Nulla facilisi. Nulla facilisi.</p>
+        </div>
+        <div class="column">
+            <h2>Text 2</h2>
+            <img src="tutor4.png" alt="learning">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec justo hendrerit vestibulum non a magna. Nulla facilisi. Nulla facilisi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec justo hendrerit vestibulum non a magna. Nulla facilisi. Nulla facilisi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec justo hendrerit vestibulum non a magna. Nulla facilisi. Nulla facilisi.</p>
+        </div>
+    </section>
+
+<!-- footer -->
+    <footer class="footer">
+        <p>&copy; 2024 RS</p>
+    </footer>
+
+
+</body>
+</html>
